@@ -1,0 +1,6 @@
+worker:
+    type: nodejs
+    approot: Z
+    config:
+        node_version: v0.8.x
+
