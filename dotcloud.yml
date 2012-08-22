@@ -3,3 +3,5 @@ worker:
   approot: Z
   node_version: v0.8.7
   prebuild: ./pre-build.sh
+  systempackages:
+    - uuid-dev
