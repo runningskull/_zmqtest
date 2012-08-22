@@ -3,5 +3,5 @@ worker:
   approot: Z
   node_version: v0.8.7
   systempackages:
-    - libzmq
+    - zeromq
 
