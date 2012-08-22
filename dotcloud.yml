@@ -1,6 +1,9 @@
-worker:
-    type: nodejs
-    approot: Z
-    config:
-        node_version: v0.8.x
+nodejs:
+  type: custom
+  buildscript: nodejs/builder
+  ports:
+    www: http
+  process: node worker.js
+  approot: Z # change this to your application root!
+  node_version: v0.8.7
 
