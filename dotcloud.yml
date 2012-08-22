@@ -1,9 +1,7 @@
-nodejs:
-  type: custom
-  buildscript: nodejs/builder
-  ports:
-    www: http
-  process: node worker.js
-  approot: Z # change this to your application root!
+worker:
+  type: nodejs
+  approot: Z
   node_version: v0.8.7
+  systempackages:
+    - libzmq
 
