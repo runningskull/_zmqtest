@@ -5,4 +5,4 @@ worker:
   systempackages:
     - uuid-dev
   config:
-    node_version: 0.8.x
+    node_version: v0.8.x
