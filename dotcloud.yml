@@ -1,7 +1,8 @@
 worker:
   type: nodejs
   approot: Z
-  node_version: v0.8.x
   prebuild: ./pre-build.sh
   systempackages:
     - uuid-dev
+  config:
+    node_version: 0.8.x
