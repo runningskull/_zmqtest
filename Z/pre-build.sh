@@ -18,7 +18,7 @@ test -f ~/.zmq_installed || (
 )
 
 echo "# Exporting PKG_CONFIG_PATH"
-export PKG_CONFIG_PATH="/home/dotcloud/installs/zeromq/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PKG_CONFIG_PATH="/home/dotcloud/installs/zeromq/lib/pkgconfig"
 echo ${PKG_CONFIG_PATH}
 echo "/home/dotcloud/installs/zeromq/lib/pkgconfig"
 ls /home/dotcloud/installs/zeromq/lib/pkgconfig
