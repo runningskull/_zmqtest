@@ -20,3 +20,5 @@ test -f ~/.zmq_installed || (
 echo "# Exporting PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/home/dotcloud/installs/zeromq/lib/pkgconfig"
 
+npm install https://github.com/JustinTulloss/zeromq.node/tarball/master
+

@@ -9,7 +9,4 @@
   "repository": "",
   "author": "",
   "license": "BSD",
-  "dependencies": {
-    "zmq": "https://github.com/JustinTulloss/zeromq.node/tarball/master"
-  }
 }
